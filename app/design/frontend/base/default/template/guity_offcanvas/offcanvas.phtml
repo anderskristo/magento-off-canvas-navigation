@@ -1,0 +1,32 @@
+<input type="checkbox" class="off-canvas-check" id="off-canvas-left-check">
+
+<div id="off-canvas-left" class="off-canvas">
+	<div class="main-nav-wrapper">
+		<div class="off-canvas-categories">
+			<?php echo $this->getChildHtml('OffCanvasCategories') ?>
+		</div>
+		<div class="right">
+			<div class="links">
+				<?php echo $this->getChildHtml('loginLinks') ?>
+				<span class="div-line">|</span>
+				<a href="#" class="stores-link">
+					<?php echo $this->__('Stores'); ?>
+				</a>
+			</div>
+			<div class="bag-icon-wrap">
+				<a href="<?php echo $this->getUrl('checkout/cart') ?>">
+					<span class="label">
+							<?php echo $this->__('Bag'); ?>
+					</span>
+					<?php $count = $this->helper('checkout/cart')->getSummaryCount(); ?> <?php /* get total items in cart */?>
+					<?php if ($count==0):?>
+						<?php echo '<span class="mobile-cart-count">0</span>';?>
+					<?php endif; ?>
+					<?php if ($count>0):?>
+						<?php echo '<span class="mobile-cart-count">' . $this->__('%s',$count) . '</span>';?>
+					<?php endif; ?>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

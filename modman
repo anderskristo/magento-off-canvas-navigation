@@ -1,3 +1,11 @@
 app/etc/modules/Guity_OffCanvas.xml app/etc/modules/Guity_OffCanvas.xml
 app/code/local/Guity/OffCanvas/Block/OffCanvas.php app/code/local/Guity/OffCanvas/Block/OffCanvas.php
 app/code/local/Guity/OffCanvas/etc/config.xml app/code/local/Guity/OffCanvas/etc/config.xml
+
+app/design/frontend/base/default/layout/guity_offcanvas.xml app/design/frontend/base/default/layout/guity_offcanvas.xml
+app/design/frontend/base/default/template/guity_offcanvas/offcanvas.phtml app/design/frontend/base/default/template/guity_offcanvas/offcanvas.phtml
+app/design/frontend/base/default/template/guity_offcanvas/categories.phtml app/design/frontend/base/default/template/guity_offcanvas/categories.phtml
+app/design/frontend/base/default/template/guity_offcanvas/1column.phtml app/design/frontend/base/default/template/guity_offcanvas/1column.phtml
+
+skin/frontend/base/default/offcanvas/css/offcanvas.css skin/frontend/base/default/offcanvas/css/offcanvas.css
+skin/frontend/base/default/offcanvas/js/offcanvas.js skin/frontend/base/default/offcanvas/js/offcanvas.js

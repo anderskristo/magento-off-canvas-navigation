@@ -11,5 +11,23 @@
                 <class>Guity_OffCanvas_Block</class>
             </guity_offcanvas>
         </blocks>
+        <page>
+            <layouts>
+                <custom_layout module="page" translate="label">
+                    <label>Offcanvas 1column</label>
+                    <template>guity_offcanvas/1column.phtml</template>
+                    <layout_handle>offcanvas_1column</layout_handle>
+                </custom_layout>
+            </layouts>
+        </page>
     </global>
+    <frontend>
+        <layout>
+            <updates>
+                <guity_offcanvas module="Guity_OffCanvas">
+                    <file>guity_offcanvas.xml</file>
+                </guity_offcanvas>
+            </updates>
+        </layout>
+    </frontend>
 </config>

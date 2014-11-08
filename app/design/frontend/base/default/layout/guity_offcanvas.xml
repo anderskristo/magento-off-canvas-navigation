@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <script>offcanvas/js/offcanvas.js</script>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <stylesheet>offcanvas/css/offcanvas.css</stylesheet>
+            </action>
+        </reference>
+        <reference name="root">
+            <block type="guity_offcanvas/offcanvas" name="guity_offcanvas_offcanvas" template="guity_offcanvas/offcanvas.phtml">
+                <block type="core/text_list" name="offcanvas.categories" as="OffCanvasCategories">
+                    <block type="page/html_topmenu" name="catalog.mobile" template="guity_offcanvas/categories.phtml"/>
+                </block>
+            </block>
+        </reference>
+    </default>
+    <custom_layout translate="label">
+        <label>Offcanvas 1column</label>
+        <reference name="root">
+            <action method="setTemplate"><template>guity_offcanvas/1column.phtml</template></action>
+            <action method="setIsHandle"><applied>1</applied></action>
+        </reference>
+    </custom_layout>
+</layout>
