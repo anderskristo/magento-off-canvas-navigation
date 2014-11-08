@@ -1,1 +1,3 @@
 app/etc/modules/Guity_OffCanvas.xml app/etc/modules/Guity_OffCanvas.xml
+app/code/local/Guity/OffCanvas/Block/OffCanvas.php app/code/local/Guity/OffCanvas/Block/OffCanvas.php
+app/code/local/Guity/OffCanvas/etc/config.xml app/code/local/Guity/OffCanvas/etc/config.xml

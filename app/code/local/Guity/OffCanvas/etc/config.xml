@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Guity_OffCanvas>
+            <version>0.0.1</version>
+        </Guity_OffCanvas>
+    </modules>
+    <global>
+        <blocks>
+            <guity_offcanvas>
+                <class>Guity_OffCanvas_Block</class>
+            </guity_offcanvas>
+        </blocks>
+    </global>
+</config>
